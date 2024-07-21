@@ -1,0 +1,108 @@
+    body {
+        color: white;
+        margin: 0%;
+        padding: 0%;
+        background: url(img/bg.jpg);
+        height: 1200px;
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid gray;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .mid {
+        display: block;
+        border: 2px solid burlywood;
+        width: 33%;
+        margin: 43px 500px;
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 55px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 10px;
+        border: 2px solid gray;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .container {
+        border: 5px solid saddlebrown;
+        margin: 301px 750px;
+        padding: 90px 2px;
+        width: 35%;
+        border-radius: 16px;
+    }
+
+    .form-group input {
+
+        text-align: center;
+        display: block;
+        border: 2px solid black;
+        width: 347px;
+        padding: 2px;
+        margin: 25px auto;
+        font-size: 25px;
+        border-radius: 7px;
+    }
+
+    .container h1 {
+        text-align: center;
+        display: inline-block;
+        width: 525px;
+        color: wheat;
+        font-size: 40px;
+    }
+
+    .container button {
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+    }
